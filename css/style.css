@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+section nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+section nav .logo img {
+  width: 100px;
+  cursor: pointer;
+  margin: 7px 0;
+}
+
+section nav ul {
+  list-style: none;
+}
+
+section nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+section nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+section nav ul li a:hover {
+  color: #825b32;
+}
+
+section .main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: 130px;
+}
+
+section .main .isi-text h1 {
+  font-size: 60px;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+section .main .isi-text h1 span {
+  color: #825b32;
+  line-height: 22px;
+  font-size: 70px;
+}
+
+section .main .gambar-utama img {
+  width: 400px;
+  position: relative;
+  left: 70px;
+}
+
+.text p {
+  width: 650px;
+  text-align: justify;
+  position: relative;
+  left: 130px;
+  bottom: -60px;
+  line-height: 22px;
+}
+
+section .btn {
+  background: #825b32;
+  position: relative;
+  left: 130px;
+  bottom: -110px;
+  width: 160px;
+  cursor: pointer;
+  padding: 12px 25px;
+  border-radius: 25px;
+}
+
+section .btn a {
+  color: #fff;
+  margin-right: 4px;
+  text-decoration: none;
+}
+
+section .btn i {
+  color: #fff;
+  transition: 0.3s;
+}
+
+section .btn:hover i {
+  transform: translateX(7px);
+}
+
+.menu {
+  width: 100%;
+  padding: 70px 0;
+}
+
+.menu h1 {
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.menu h1 span {
+  color: #825b32;
+  margin-left: 15px;
+  font-family: mv boli;
+}
+
+.menu .menu-box {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.menu .menu-box .menu-card {
+  width: 325px;
+  height: 480px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu .menu-box .menu-card .menu-image {
+  width: 300px;
+  height: 245px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.menu .menu-box .menu-card .menu-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.menu .menu-box .menu-card .menu-image:hover img {
+  transform: scale(1.1);
+}
+
+.menu .menu-box .menu-card .small-card {
+  width: 45px;
+  height: 45px;
+  float: right;
+  position: relative;
+  top: -240px;
+  right: -8px;
+  opacity: 1;
+  border-radius: 7px;
+  transition: 0.3s;
+}
+
+.menu .menu-box .menu-card:hover .small-card {
+  position: relative;
+  top: -240px;
+  right: 20px;
+  opacity: 1;
+}
+
+.menu .menu-box .menu-card .menu-info h2 {
+  width: 60%;
+  text-align: center;
+  margin: 10px auto 10px auto;
+  font-size: 25px;
+  color: #825b32;
+}
+
+.menu .menu-box .menu-card .menu-info p {
+  text-align: center;
+  margin-top: 8px;
+  line-height: 21px;
+}
+
+.menu .menu-box .menu-card .menu-info h3 {
+  text-align: center;
+  margin-top: 10px;
+}
