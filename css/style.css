@@ -89,7 +89,7 @@ section .main .gambar-utama img {
 }
 
 section .btn {
-  background: #825b32;
+  background: #254336;
   position: relative;
   left: 130px;
   bottom: -110px;
@@ -202,4 +202,85 @@ section .btn:hover i {
 .menu .menu-box .menu-card .menu-info h3 {
   text-align: center;
   margin-top: 10px;
+}
+
+.about .header-about h1 {
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.about .header-about h1 span {
+  color: #825b32;
+  margin-left: 15px;
+  font-family: mv boli;
+}
+
+.isi-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.isi-about .about-img img {
+  width: 400px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.isi-about .about-img img:hover {
+  transform: scale(1.1);
+}
+
+.isi-about .text-about p {
+  text-align: justify;
+  width: 650px;
+  font-size: 15px;
+  position: relative;
+  right: 60px;
+  bottom: -10px;
+  line-height: 22px;
+}
+
+.location .header-location h1 {
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.location .header-location h1 span {
+  color: #825b32;
+  margin-left: 15px;
+  font-family: mv boli;
+}
+
+.location .embed-location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.location .embed-location iframe {
+  width: 80%;
+  height: 500px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer span {
+  font-size: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
 }
